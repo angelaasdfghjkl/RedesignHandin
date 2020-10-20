@@ -10,14 +10,14 @@
 
   <body>
     <!-- TODO: put your HTML code here! -->
-    <h1><span>Redesign</span><h1>
+    <h1><span>Responsive Redesign</span><h1>
       <h2>Context</h2>
       <p>A few summers ago, I chanced upon a new restaurant in my neighborhood called
         Sushi Village. Eager to check out the menu offerings of the restaurant, I searched
         for its website on Google. The second the website loaded, I was immediately taken aback
         by its outdated design and confusing interface. So for this project, I would like to
-        evaluate and redesign the site using usability principles and key design concepts. Browse the
-        <a href="<https://www.sushivillageflushing.com/">original website</a> and see for yourself
+        evaluate and redesign the site using design heuristics and usability principles. Browse the
+        <a href="<https://www.sushivillageflushing.com/">original website</a>, see for yourself
         and let's embark on this journey together.
       </p>
       <h2>Problems</h2>
@@ -27,7 +27,31 @@
         <p>The Sushi Village website itself has quite a few usability problems. There are multiple empty
           pages and the navigational flow is confusing. To break these specific flaws down, I’ll be examining
           the website and grading it in the following four categories: efficiency, memorability, usability,
-          and learnability
+          and learnability (as well as Nielsen’s Heuristics, bolded below)
           </p>
-  </body>
+        <img class="responsive center" src="efficiency.png" alt="efficiency" width="700" height="300">
+        <img class="responsive center" src="memorability.png" alt="memorability" width="700" height="300">
+        <img class="responsive center" src="usability.png" alt="usability" width="700" height="300">
+        <img class="responsive center" src="learnability.png" alt="learnability" width="700" height="300">
+      <h3>II. Accessibility</h3>
+          <p>The WebAIM WAVE (Web Accessibility Evaluation Tool) detected 13 alerts for Sushi Village. The website is littered with inconsistent layout and text sizing/repetition. It’s detrimental to have redundant title and alternative texts because someone using screen readers will be distracted by the repeated reading of the same alternative texts. There are also components of the Sushi Village website that are inaccessible to those who are visually impaired-- displaying small texts and inadequate contrast between the text and the background. The physical presentation of information needs to be readable and available to <i>all</i>, so texts must be large and contrasted enough for users with low vision. When designing the interface, every component needs to be evaluated to ensure that they accommodate all users. Adequate adjustments are necessary whether it be enlarging or changing the color of the text. From the screen reader test and web accessibility tool, it’s evident that the website doesn’t take into consideration the users’ (dis)abilities and special accommodations. It’s advisable to critique all elements of the page and rectify the mistakes, from redundancy to visibility.
+          </p>
+      <h2>Visual Redesign</h2>
+          <p>The usability and accessibility insights led me to the conclusion that the Sushi Village website needs to be redesigned. More specifically, the navigation menu should be shortened in order to cut out unnecessary pages so that it’s more concise and consistent with Nielsen’s Heuristics. The primary concern is that the “Menu” should be directly linked to the external ordering site since the original page doesn’t have useful information like price and ingredients. The homepage should also include commonly asked questions such as operating hours and address. Ultimately, I decided to reorder the homepage and combine it with the “About” page to build a more effective and user-friendly interface.
+          </p>
+      <h4>Low-Fidelity Wireframing</h4>
+          <img class="responsive center" src="mobilelofi.png" alt="mobile lo-fi wireframe" width="700" height="300">
+          <img class="responsive center" src="ipadlofi.png" alt="ipad lo-fi wireframe" width="700" height="300">
+          <img class="responsive center" src="maclofi.png" alt="mac lo-fi wireframe" width="700" height="300">
+      <h4>High-Fidelity Prototyping</h4>
+          <img class="responsive center" src="mobilehifi.png" alt="mobile hi-fi prototype" width="700" height="300">
+          <img class="responsive center" src="ipadhifi.png" alt="ipad hi-fi prototype" width="700" height="300">
+          <img class="responsive center" src="machifi.png" alt="mac hi-fi prototype" width="700" height="300">
+      <h4>Style Guide</h4>
+          <img class="responsive center" src="styleguide.png" alt="style guide" width="700" height="300">
+      <h2>Responsive Redesign</h2>
+        <p>Through the experience of applying usability principles to a website redesign process, I learned the importance of consistency and simplicity. From ideation to mockups and prototypes, the interface has to be usable, learnable, and effective for users from all backgrounds to digest it. We have to not only step into the users’ shoes but also envision the interface through their eyes-- how does the interface look through their lens? Previously, I had never considered the various accommodations necessary for the visually impaired and differently abled, i.e. larger text size and color contrast. This experience has taught me to frame user experience through an accessibility perspective and design interfaces that accommodate for a spectrum of use cases. No one should be overlooked in the design process and all edge cases have to be accounted for, be it special text sizing or device responsiveness. I’ve also been reminded how much I took for granted browser responsiveness and basic usability heuristics like aesthetic/minimalist design. Only utilizing these usability principles can designers and engineers search for new ways to improve upon inaccessible features for outliers and common users alike. Everyone in the population needs to be accommodated in the digital age irrespective of their (dis)ability. 
+</p>
+          <img class="responsive center" src="isom.png" alt="isometric prototype" width="700" height="300">
+            <a href="<https://gentle-wave-17512.herokuapp.com/">redesigned website</a>
 </html>
